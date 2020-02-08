@@ -1,0 +1,6 @@
+spring:
+  autoconfigure:
+    - org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+    - org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration
+  flyway:
+    enabled: false
